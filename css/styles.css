@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* fonts to use
+ffont-family: 'Aleo', serif;
+font-family: 'Special Elite', cursive; */
+
+body {
+  /* .argyle { */
+  background-color: #6d695c;
+  background-image:
+    repeating-linear-gradient(120deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px),
+    repeating-linear-gradient(60deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px),
+    linear-gradient(60deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1)),
+    linear-gradient(120deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1));
+  background-size: 70px 120px;
+  font-family: 'Aleo', serif;
+}
+
+
+.jumbotron {
+  font-family: 'Special Elite', cursive;
+  border-bottom: 1px solid black;
+  letter-spacing: .2rem;
+  padding: 20px;
+}
+
+.breadcrumb {
+  color: yellow;
+
+}
+
+.line-right {
+  margin-left: 25px;
+}
+
+.navbar {
+  margin-top: 5px;
+}
+
+.about-main,
+.text-services,
+.contact-main {
+  color:  #D3D3D3;
+}
