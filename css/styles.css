@@ -5,7 +5,7 @@
 }
 
 /* fonts to use
-ffont-family: 'Aleo', serif;
+font-family: 'Aleo', serif;
 font-family: 'Special Elite', cursive; */
 
 body {
@@ -20,17 +20,14 @@ body {
   font-family: 'Aleo', serif;
 }
 
-
 .jumbotron {
-  font-family: 'Special Elite', cursive;
   border-bottom: 1px solid black;
   letter-spacing: .2rem;
   padding: 20px;
 }
 
-.breadcrumb {
-  color: yellow;
-
+.jumbo-text {
+  font-family: 'Special Elite', cursive;
 }
 
 .line-right {
@@ -45,4 +42,8 @@ body {
 .text-services,
 .contact-main {
   color:  #D3D3D3;
+}
+
+.img-height {
+  height: auto;
 }
